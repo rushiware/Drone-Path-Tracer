@@ -155,9 +155,10 @@ while True:
 
     cv2.imshow("Path", imgThres)
 
+    
     if cv2.waitKey(1) & 0xFF == ord('q'):
         me.land()
         break
 
-
+        
 cv2.destroyAllWindows()
